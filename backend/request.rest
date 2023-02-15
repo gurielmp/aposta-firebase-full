@@ -1,0 +1,30 @@
+GET http://localhost:5000/users
+
+
+###
+
+GET http://localhost:5000/users/63ec8cc042eae934f93c6cc9
+
+###
+
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+  "name" : "guriel",
+  "email" : "gurielamp@gmail.com"
+}
+
+###
+
+PATCH  http://localhost:5000/users/63d0fa8f992cdaec03002ea2
+Content-Type: application/json
+
+{
+  "name" : "odolf",
+  "birthday" : ""
+}
+
+
+###
+DELETE http://localhost:5000/users/63ec713b42eae934f93c6c7e
